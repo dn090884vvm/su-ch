@@ -1,0 +1,108 @@
+.hero {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: linear-gradient(rgba(242, 242, 242, 1), rgba(242, 242, 242, 1));
+}
+
+.bg-hero {
+  background-image: url('../../images/hero-mobile.png'),
+    linear-gradient(rgba(242, 242, 242, 1), rgba(242, 242, 242, 1));
+  //   max-width: 364px;
+  height: 205px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.food-examples__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -16px;
+  margin-left: -16px;
+}
+
+.food-examples__item {
+  position: relative;
+  margin-left: 16px;
+  margin-top: 16px;
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+.food-examples__descr {
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.39;
+  color: #ffffff;
+}
+
+.food-examples__img {
+  border-radius: 30px;
+}
+
+@media screen and(min-width:768px) {
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .bg-hero {
+    background-image: url('../../images/hero-tablet.png'),
+      linear-gradient(rgba(242, 242, 242, 1), rgba(242, 242, 242, 1));
+    height: 310px;
+    margin-bottom: 50px;
+  }
+
+  .food-examples__list {
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+
+  .food-examples__item {
+    margin-left: 20px;
+    margin-top: 20px;
+    flex-basis: calc((100% - 80px) / 4);
+  }
+
+  .food-examples__descr {
+    left: 10px;
+    bottom: 15px;
+  }
+}
+
+@media screen and(min-width:1440px) {
+  .bg-hero {
+    background-image: url('../../images/hero-desktop.png'),
+      linear-gradient(rgba(242, 242, 242, 1), rgba(242, 242, 242, 1));
+    height: 450px;
+    margin-bottom: 80px;
+  }
+
+  .food-examples__list {
+    margin-top: -30px;
+    margin-left: -20px;
+  }
+
+  .food-examples__item {
+    &:nth-child(3n + 1) {
+      min-width: 530px;
+    }
+
+    &:nth-child(2) {
+      max-width: 250px;
+    }
+
+    &:nth-child(3) {
+      max-width: 250px;
+    }
+
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% - 60px) / 2);
+  }
+}

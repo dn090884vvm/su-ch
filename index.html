@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="left-container sidebar">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, repellat?
+      </div>
+
+      <div class="central-container">
+        <header class="header">
+          <div class="header-wrapper">
+            <div class="header-contacts">
+              <p class="header-contacts__hours">Приймання замовлень 11:00-18:00</p>
+              <div class="header-contacts-wrapper">
+                <a href="" class="header-contacts__phone">
+                  <svg class="header-contacts__phone-icon">
+                    <use href="./images/sprite.svg#phone"></use>
+                  </svg>
+                  (050) 205 00 55
+                </a>
+                <button class="header-add-button">
+                  <svg class="header-add-button__icon">
+                    <use href="./images/sprite.svg#add-button"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="logo-wrap">
+              <img src="./images/logo.png" alt="Logo" class="logo-image" />
+            </div>
+            <ul class="mobile-search__list">
+              <li class="mobile-search__item">
+                <button class="mobile-search__search">
+                  <svg class="mobile-search__icon">
+                    <use href="./images/sprite.svg#search"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="mobile-search__item">
+                <button class="mobile-search__cart">
+                  <svg class="mobile-search__icon">
+                    <use href="./images/sprite.svg#cart"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="mobile-search__item">
+                <button class="mobile-search__burger">
+                  <svg class="mobile-search__icon">
+                    <use href="./images/sprite.svg#burger"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+            <div class="navigation-wrapper">
+              <nav class="header-nav">
+                <ul class="header-nav__list">
+                  <li class="header-nav__item"><a href="" class="header-nav__link">Про нас</a></li>
+                  <li class="header-nav__item"><a href="" class="header-nav__link">Відгуки</a></li>
+                  <li class="header-nav__item">
+                    <a href="" class="header-nav__link">Доставка по Дніпру</a>
+                  </li>
+                  <li class="header-nav__item">
+                    <a href="" class="header-nav__link">Акції та новини</a>
+                  </li>
+                </ul>
+              </nav>
+              <button class="desctop-search__search">
+                <svg class="desctop-search__icon">
+                  <use href="./images/sprite.svg#search"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <div class="right-container sidebar">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aperiam!
+      </div>
+    </div>
+    <main>
+      <section class="hero central-container">
+        <div class="bg-hero"></div>
+        <ul class="food-examples__list">
+          <li class="food-examples__item">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="./images/rolls/losos-desktop.jpg 1x" />
+              <source media="(min-width: 768px)" srcset="./images/rolls/losos-tablet.jpg 1x" />
+              <source media="(min-width: 280px)" srcset="./images/rolls/losos-mobile.jpg 1x" />
+              <img
+                src="./images/rolls/losos-mobile.jpg"
+                class="food-examples__img"
+                alt=""
+                class="food-examples__img"
+              />
+            </picture>
+            <p class="food-examples__descr">Суші з лососем</p>
+          </li>
+          <li class="food-examples__item">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="./images/rolls/vugor-desktop.jpg 1x" />
+              <source media="(min-width: 768px)" srcset="./images/rolls/vugor-tablet.jpg 1x" />
+              <source media="(min-width: 280px)" srcset="./images/rolls/vugor-mobile.jpg 1x" />
+              <img
+                src="./images/rolls/vugor-mobile.jpg"
+                class="food-examples__img"
+                alt=""
+                class="food-examples__img"
+              />
+            </picture>
+            <p class="food-examples__descr">З вугрем</p>
+          </li>
+          <li class="food-examples__item">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="./images/rolls/hostri-desktop.jpg 1x" />
+              <source media="(min-width: 768px)" srcset="./images/rolls/hostri-tablet.jpg 1x" />
+              <source media="(min-width: 280px)" srcset="./images/rolls/hostri-mobile.jpg 1x" />
+              <img
+                src="./images/rolls/hostri-mobile.jpg"
+                class="food-examples__img"
+                alt=""
+                class="food-examples__img"
+              />
+            </picture>
+            <p class="food-examples__descr">Гострі роли</p>
+          </li>
+          <li class="food-examples__item">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="./images/rolls/vegan-desktop.jpg 1x" />
+              <source media="(min-width: 768px)" srcset="./images/rolls/vegan-tablet.jpg 1x" />
+              <source media="(min-width: 280px)" srcset="./images/rolls/vegan-mobile.jpg 1x" />
+              <img
+                src="./images/rolls/vegan-mobile.jpg"
+                class="food-examples__img"
+                alt=""
+                class="food-examples__img"
+              />
+            </picture>
+
+            <p class="food-examples__descr">Веганські роли</p>
+          </li>
+        </ul>
+      </section>
+      <section class="hot-deals central-container">
+        <h2 class="hot-deals__header">Hot deals</h2>
+        <ul class="hot-deals__list">
+          <li class="hotdeals__item">
+            <img src="./images/hot-deals/red-dragon-mobile.jpg" alt="" class="hot-deals__img" />
+            <ul class="hot-deals__options-list">
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Вибір покупців</button>
+              </li>
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Знижка</button>
+              </li>
+            </ul>
+
+            <ul class="hot-deals__flavour-list">
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#fish"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#pepper"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#vegan"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+            <div class="hot-deals-wrapper">
+              <h3 class="hot-deals-menu__header">Сакура</h3>
+              <div class="pre-price-wrapper">
+                <p class="hot-deals-menu__pre-price">500₴</p>
+                <p class="hot-deals-menu__price">439₴</p>
+              </div>
+            </div>
+          </li>
+          <li class="hotdeals__item">
+            <img src="./images/hot-deals/red-dragon-mobile.jpg" alt="" class="hot-deals__img" />
+            <ul class="hot-deals__options-list">
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Вибір покупців</button>
+              </li>
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Знижка</button>
+              </li>
+            </ul>
+
+            <ul class="hot-deals__flavour-list">
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#fish"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#pepper"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#vegan"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+            <div class="hot-deals-wrapper">
+              <h3 class="hot-deals-menu__header">Сакура</h3>
+              <div class="pre-price-wrapper">
+                <p class="hot-deals-menu__pre-price">500₴</p>
+                <p class="hot-deals-menu__price">439₴</p>
+              </div>
+            </div>
+          </li>
+          <li class="hotdeals__item">
+            <img src="./images/hot-deals/red-dragon-mobile.jpg" alt="" class="hot-deals__img" />
+            <ul class="hot-deals__options-list">
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Вибір покупців</button>
+              </li>
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Знижка</button>
+              </li>
+            </ul>
+
+            <ul class="hot-deals__flavour-list">
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#fish"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#pepper"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#vegan"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+            <div class="hot-deals-wrapper">
+              <h3 class="hot-deals-menu__header">Сакура</h3>
+              <div class="pre-price-wrapper">
+                <p class="hot-deals-menu__pre-price">500₴</p>
+                <p class="hot-deals-menu__price">439₴</p>
+              </div>
+            </div>
+          </li>
+          <li class="hotdeals__item">
+            <img src="./images/hot-deals/red-dragon-mobile.jpg" alt="" class="hot-deals__img" />
+            <ul class="hot-deals__options-list">
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Вибір покупців</button>
+              </li>
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Знижка</button>
+              </li>
+            </ul>
+
+            <ul class="hot-deals__flavour-list">
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#fish"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#pepper"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#vegan"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+            <div class="hot-deals-wrapper">
+              <h3 class="hot-deals-menu__header">Сакура</h3>
+              <div class="pre-price-wrapper">
+                <p class="hot-deals-menu__pre-price">500₴</p>
+                <p class="hot-deals-menu__price">439₴</p>
+              </div>
+            </div>
+          </li>
+          <li class="hotdeals__item">
+            <img src="./images/hot-deals/red-dragon-mobile.jpg" alt="" class="hot-deals__img" />
+            <ul class="hot-deals__options-list">
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Вибір покупців</button>
+              </li>
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Знижка</button>
+              </li>
+            </ul>
+
+            <ul class="hot-deals__flavour-list">
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#fish"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#pepper"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#vegan"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+            <div class="hot-deals-wrapper">
+              <h3 class="hot-deals-menu__header">Сакура</h3>
+              <div class="pre-price-wrapper">
+                <p class="hot-deals-menu__pre-price">500₴</p>
+                <p class="hot-deals-menu__price">439₴</p>
+              </div>
+            </div>
+          </li>
+          <li class="hotdeals__item">
+            <img src="./images/hot-deals/red-dragon-mobile.jpg" alt="" class="hot-deals__img" />
+            <ul class="hot-deals__options-list">
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Вибір покупців</button>
+              </li>
+              <li class="hot-deals__option-item">
+                <button class="hot-deals__option-item-button">Знижка</button>
+              </li>
+            </ul>
+
+            <ul class="hot-deals__flavour-list">
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#fish"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#pepper"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="hot-deals__flavour-item">
+                <button class="hot-deals__flavour-button">
+                  <svg class="hot-deals__flavour-button-img">
+                    <use href="./images/sprite.svg#vegan"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+            <div class="hot-deals-wrapper">
+              <h3 class="hot-deals-menu__header">Сакура</h3>
+              <div class="pre-price-wrapper">
+                <p class="hot-deals-menu__pre-price">500₴</p>
+                <p class="hot-deals-menu__price">439₴</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
